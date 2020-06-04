@@ -1,6 +1,6 @@
 # snaplabs
 
-FOR RANDOM CIRCLES
+USAGE
 
-1. Run socketio_ue4.py
+1. Run mouseio.py
 2. "Play" the game in the circlesMalone project
