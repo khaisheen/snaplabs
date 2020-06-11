@@ -4,14 +4,14 @@
 #include "CUBlueprintLibrary.h"
 #include "IImageWrapper.h"
 #include "IImageWrapperModule.h"
-#include "Core/Public/Modules/ModuleManager.h"
-#include "Core/Public/Async/Async.h"
-#include "Engine/Classes/Engine/Texture2D.h"
-#include "Core/Public/HAL/ThreadSafeBool.h"
-#include "RHI/Public/RHI.h"
-#include "Core/Public/Misc/FileHelper.h"
-#include "Engine/Public/OpusAudioInfo.h"
-#include "Launch/Resources/Version.h"
+#include "Runtime/Core/Public/Modules/ModuleManager.h"
+#include "Runtime/Core/Public/Async/Async.h"
+#include "Runtime/Engine/Classes/Engine/Texture2D.h"
+#include "Runtime/Core/Public/HAL/ThreadSafeBool.h"
+#include "Runtime/RHI/Public/RHI.h"
+#include "Runtime/Core/Public/Misc/FileHelper.h"
+#include "Runtime/Engine/Public/OpusAudioInfo.h"
+#include "Runtime/Launch/Resources/Version.h"
 #include "Developer/TargetPlatform/Public/Interfaces/IAudioFormat.h"
 #include "CoreMinimal.h"
 #include "Engine/Engine.h"
@@ -212,50 +212,6 @@ TArray<uint8> UCUBlueprintLibrary::Conv_SoundWaveToWavBytes(USoundWave* SoundWav
 	SerializeWaveFile(WavBytes, PCMBytes.GetData(), PCMBytes.Num(), SoundWave->NumChannels, SoundWave->GetSampleRateForCurrentPlatform());
 
 	return WavBytes;
-}
-
-void UCUBlueprintLibrary::Conv_CompactBytesToTransforms(const TArray<uint8>& InCompactBytes, TArray<FTransform>& OutTransforms)
-{	
-	TArray<float> FloatView;
-	FloatView.SetNumUninitialized(InCompactBytes.Num() / 4);
-	FPlatformMemory::Memcpy(FloatView.GetData(), InCompactBytes.GetData(), InCompactBytes.Num());
-
-	//is our float array exactly divisible by 9?
-	if (FloatView.Num() % 9 != 0)
-	{
-		UE_LOG(LogTemp, Log, TEXT("Conv_CompactBytesToTransforms::float array is not divisible by 9"));
-		return;
-	}
-
-	int32 TransformNum = FloatView.Num() / 9;
-	OutTransforms.SetNumUninitialized(TransformNum);
-
-	for (int i = 0; i < FloatView.Num() - 8; i += 9)
-	{
-		OutTransforms[i/9] = FTransform(FRotator(FloatView[i], FloatView[i+1], FloatView[i+2]), FVector(FloatView[i+3], FloatView[i + 4], FloatView[i + 5]), FVector(FloatView[i+6], FloatView[i+7], FloatView[i+8]));
-	}
-}
-
-void UCUBlueprintLibrary::Conv_CompactPositionBytesToTransforms(const TArray<uint8>& InCompactBytes, TArray<FTransform>& OutTransforms)
-{
-	TArray<float> FloatView;
-	FloatView.SetNumUninitialized(InCompactBytes.Num() / 4);
-	FPlatformMemory::Memcpy(FloatView.GetData(), InCompactBytes.GetData(), InCompactBytes.Num());
-
-	//is our float array exactly divisible by 3?
-	if (FloatView.Num() % 3 != 0)
-	{
-		UE_LOG(LogTemp, Log, TEXT("Conv_CompactPositionBytesToTransforms::float array is not divisible by 3"));
-		return;
-	}
-
-	int32 TransformNum = FloatView.Num() / 3;
-	OutTransforms.SetNumUninitialized(TransformNum);
-
-	for (int i = 0; i < FloatView.Num() - 2; i += 3)
-	{
-		OutTransforms[i / 3] = FTransform(FVector(FloatView[i], FloatView[i + 1], FloatView[i + 2]));
-	}
 }
 
 void UCUBlueprintLibrary::SetSoundWaveFromWavBytes(USoundWaveProcedural* InSoundWave, const TArray<uint8>& InBytes)

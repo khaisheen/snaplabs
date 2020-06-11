@@ -5,7 +5,7 @@
 
 
 DECLARE_LOG_CATEGORY_EXTERN(CoreUtilityLog, Log, All);
-#include "Modules/ModuleManager.h"
+#include "Runtime/Core/Public/Modules/ModuleManager.h"
 
 
 /**

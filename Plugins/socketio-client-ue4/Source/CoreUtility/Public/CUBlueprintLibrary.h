@@ -4,8 +4,8 @@
 #pragma once
 
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "Async/Future.h"
-#include "Engine/Classes/Sound/SoundWaveProcedural.h"
+#include "Runtime/Core/Public/Async/Future.h"
+#include "Runtime/Engine/Classes/Sound/SoundWaveProcedural.h"
 #include "CUBlueprintLibrary.generated.h"
 
 /** Wrapper for EImageFormat::Type for BP */
@@ -99,19 +99,6 @@ public:
 	*/
 	UFUNCTION(BlueprintPure, meta = (DisplayName = "To Bytes (SoundWave)", BlueprintAutocast), Category = "CoreUtility|Conversion")
 	static TArray<uint8> Conv_SoundWaveToWavBytes(USoundWave* SoundWave);
-
-
-	/** 
-	* Compact Transform bytes are [[pitch,yaw,roll,x,y,z,sx,sy,sz],...]
-	*/
-	UFUNCTION(BlueprintPure, meta = (DisplayName = "To Transforms (Bytes)", BlueprintAutocast), Category = "CoreUtility|Conversion")
-	static void Conv_CompactBytesToTransforms(const TArray<uint8>& InCompactBytes, TArray<FTransform>& OutTransforms);
-
-	/** 
-	* Compact Position bytes are [[x,y,z],...]
-	*/
-	UFUNCTION(BlueprintPure, meta = (DisplayName = "To Transforms (Location Bytes)", BlueprintAutocast), Category = "CoreUtility|Conversion")
-	static void Conv_CompactPositionBytesToTransforms(const TArray<uint8>& InCompactBytes, TArray<FTransform>& OutTransforms);
 
 	/**
 	*	Sets and updates soundwave if needed from incoming bytes. Callable on background threads
