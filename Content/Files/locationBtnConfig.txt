@@ -1,0 +1,8 @@
+{
+"locationBtns":
+	{
+	"Main":{ "id": "Main", "isLoc":false, "x":0, "y":0, "z":0, "children":["Food"], "parent":"" },
+	"Food":{ "id":"Food", "isLoc":false, "x":0, "y":0, "z":0, "children":["Canteen"], "parent":"Main"},
+	"Canteen":{ "id":"Canteen", "isLoc":true, "x":23, "y":12, "z":1, "children":[], "parent":"Food"}
+	}
+}
