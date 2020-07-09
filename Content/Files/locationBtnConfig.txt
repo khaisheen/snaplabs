@@ -9,4 +9,5 @@
 	"Canteen":{ "id":"Canteen", "isLoc":true, "x":23, "y":12, "z":1, "children":[], "parent":"Food"},
 	"Gom Gom":{ "id":"Gom Gom", "isLoc":true, "x":55, "y":41, "z":0, "children":[], "parent":"Food"}
 	}
+
 }
