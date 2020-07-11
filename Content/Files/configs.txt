@@ -1,0 +1,103 @@
+{
+    "locationBtns": {
+        "Main": {
+            "id": "Main",
+            "isLoc": false,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "children": [
+                "LTs",
+                "Food"
+            ],
+            "parent": ""
+        },
+        "LTs": {
+            "id": "LTs",
+            "isLoc": false,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "children": [
+                "LT1",
+                "LT2"
+            ],
+            "parent": "Main"
+        },
+        "Food": {
+            "id": "Food",
+            "isLoc": false,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "children": [
+                "Canteen",
+                "Gom Gom"
+            ],
+            "parent": "Main"
+        },
+        "LT1": {
+            "id": "LT1",
+            "isLoc": true,
+            "x": 24,
+            "y": 33,
+            "z": 0,
+            "children": [],
+            "parent": "LTs"
+        },
+        "LT2": {
+            "id": "LT2",
+            "isLoc": true,
+            "x": 24,
+            "y": 33,
+            "z": 0,
+            "children": [],
+            "parent": "LTs"
+        },
+        "Canteen": {
+            "id": "Canteen",
+            "isLoc": true,
+            "x": 23,
+            "y": 12,
+            "z": 1,
+            "children": [],
+            "parent": "Food"
+        },
+        "Gom Gom": {
+            "id": "Gom Gom",
+            "isLoc": true,
+            "x": 55,
+            "y": 41,
+            "z": 0,
+            "children": [],
+            "parent": "Food"
+        }
+    },
+    "events": [
+        {
+            "title": "oooooooooooooooooooplp",
+            "description": "ccchjghjghjghjc",
+            "filename": "poster1.png"
+        },
+        {
+            "title": "Lunchtime Performance",
+            "description": "come to campus centre and see",
+            "filename": "poster2.png"
+        },
+        {
+            "title": "Free food dsbj",
+            "description": "at LT4 @ 4pm",
+            "filename": "poster3.png"
+        },
+        {
+            "title": "Graduating Class of 2020",
+            "description": "Come down to campus centre and drink tea",
+            "filename": "poster4.png"
+        },
+        {
+            "title": "Rock a fall",
+            "description": "Donplplplplplpade",
+            "filename": "poster5.png"
+        },
+    ]
+}
