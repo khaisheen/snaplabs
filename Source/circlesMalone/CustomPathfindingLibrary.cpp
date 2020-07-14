@@ -50,8 +50,8 @@ TArray<FVector2D> UCustomPathfindingLibrary::getPath(int gx, int gy)
 	MapLoc startLoc = MapLoc(sx, sy, 0.0, std::max(abs(sx - gx),abs(sy - gy)));
 	q.push(startLoc);
 
-	memset(checkedMap, false, h*w);
 	for (int i = 0; i < h*w; i++) {
+		checkedMap[i] = false;
 		xPointer[i] = 0;
 		yPointer[i] = 0;
 		gPointer[i] = 1e16;
