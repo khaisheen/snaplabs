@@ -13,10 +13,7 @@ UCLASS()
 class CIRCLESMALONE_API UCustomPathfindingLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-		UFUNCTION(BlueprintCallable, Category = "MyCustomLibrary")
-		static FString TestFunc(int a, int b);
-
-		UFUNCTION(BlueprintCallable, Category = "MyCustomLibrary")
+	UFUNCTION(BlueprintCallable, Category = "MyCustomLibrary")
 		static TArray<FVector2D> getPath(int gx, int gy);
 		
 };
