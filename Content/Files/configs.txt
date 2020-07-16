@@ -75,29 +75,28 @@
     },
     "events": [
         {
-            "title": "oooooooooooooooooooplp",
-            "description": "ccchjghjghjghjc",
-            "filename": "poster1.png"
+            "title": "asdasd",
+            "description": "cccc",
+            "filename": "poster1.png",
+            "location": "LT2"
         },
         {
-            "title": "Lunchtime Performance",
-            "description": "come to campus centre and see",
-            "filename": "poster2.png"
+            "title": "LoveSing",
+            "description": "LT1 singing contest!!!! Come sing your hearts out.",
+            "filename": "poster2.png",
+            "location": "LT1"
         },
         {
-            "title": "Free food dsbj",
-            "description": "at LT4 @ 4pm",
-            "filename": "poster3.png"
-        },
-        {
-            "title": "Graduating Class of 2020",
-            "description": "Come down to campus centre and drink tea",
-            "filename": "poster4.png"
-        },
-        {
-            "title": "Rock a fall",
-            "description": "Donplplplplplpade",
-            "filename": "poster5.png"
-        },
+            "title": "no image",
+            "description": "",
+            "filename": "poster3.png",
+            "location": "LT3"
+        }
+    ],
+    "ticker": [
+        "Dont give up only give in",
+        "Betttwer worl by desngn",
+	"You are the best version of you",
+	"Tom > Chong"
     ]
 }
