@@ -32,7 +32,7 @@ const int w = 196;
 
 int xOffset[] = {0,0,1,-1,1,1,-1,-1};
 int yOffset[] = {1,-1,0,0,1,-1,1,-1};
-float ncosts[] = {1,1,1,1,1,1,1,1};
+float ncosts[] = {1,1,1,1,1.4,1.4,1.4,1.4};
 
 // Hardcoded starting point?...
 int sx = 130;
