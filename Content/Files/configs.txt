@@ -78,25 +78,35 @@
             "title": "asdasd",
             "description": "cccc",
             "filename": "poster1.png",
-            "location": "LT2"
+            "location": "LT2",
+            "hasPoster": true
         },
         {
             "title": "LoveSing",
             "description": "LT1 singing contest!!!! Come sing your hearts out.",
             "filename": "poster2.png",
-            "location": "LT1"
+            "location": "LT1",
+            "hasPoster": true
         },
         {
             "title": "no image",
             "description": "",
             "filename": "poster3.png",
-            "location": "LT3"
+            "location": "LT3",
+            "hasPoster": false
+        },
+        {
+            "title": "Some event with a poster",
+            "description": "Come to see the poster!!!",
+            "filename": "poster4.png",
+            "location": "LT3",
+            "hasPoster": true
         }
     ],
     "ticker": [
         "Dont give up only give in",
         "Betttwer worl by desngn",
-	"You are the best version of you",
-	"Tom > Chong"
+        "You are the best version of you",
+        "Tom > Chong"
     ]
 }
