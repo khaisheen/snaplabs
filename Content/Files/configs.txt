@@ -33,7 +33,7 @@
             "children": [
                 "Canteen",
                 "Gom Gom",
-		"My Nonnas"
+                "My Nonnas"
             ],
             "parent": "Main"
         },
@@ -73,7 +73,7 @@
             "children": [],
             "parent": "Food"
         },
-	"My Nonnas": {
+        "My Nonnas": {
             "id": "My Nonnas",
             "isLoc": true,
             "x": 56,
@@ -85,32 +85,39 @@
     },
     "events": [
         {
-            "title": "asdasd",
-            "description": "cccc",
+            "title": "Star Wars Movie Screening",
+            "description": "6PM at Auditorium! Free of Charge! Lightsabers and stuff",
             "filename": "poster1.png",
-            "location": "LT2",
+            "location": "Auditorium",
             "hasPoster": true
         },
         {
-            "title": "LoveSing",
-            "description": "LT1 singing contest!!!! Come sing your hearts out.",
+            "title": "Water the Plants Day",
+            "description": "5 Aug 2020. Come to our rooftop garden to water the plants!",
             "filename": "poster2.png",
-            "location": "LT1",
+            "location": "FabLab",
             "hasPoster": true
         },
         {
-            "title": "no image",
-            "description": "",
+            "title": "National Day",
+            "description": "Happy Birthday Singapore!",
             "filename": "poster3.png",
-            "location": "LT3",
+            "location": "None",
             "hasPoster": false
         },
         {
-            "title": "Some event with a poster",
-            "description": "Come to see the poster!!!",
+            "title": "CANTEEN DISCOUNT",
+            "description": "50% off food in canteen! Just flash your red card to enjoy the discounts!",
             "filename": "poster4.png",
-            "location": "LT3",
-            "hasPoster": true
+            "location": "Canteen",
+            "hasPoster": false
+        },
+        {
+            "title": "Capstone Exhibition",
+            "description": "11AM - 3PM. Senior students display the projects they've been working on for the past 8 months!",
+            "filename": "poster5.png",
+            "location": "Campus Centre",
+            "hasPoster": false
         }
     ],
     "ticker": [
