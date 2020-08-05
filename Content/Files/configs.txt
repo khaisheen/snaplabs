@@ -40,8 +40,8 @@
         "LT1": {
             "id": "LT1",
             "isLoc": true,
-            "x": 70,
-            "y": 118,
+            "x": 352,
+            "y": 450,
             "z": 1,
             "children": [],
             "parent": "LTs"
@@ -49,8 +49,8 @@
         "LT2": {
             "id": "LT2",
             "isLoc": true,
-            "x": 73,
-            "y": 126,
+            "x": 355,
+            "y": 500,
             "z": 2,
             "children": [],
             "parent": "LTs"
@@ -58,8 +58,8 @@
         "Canteen": {
             "id": "Canteen",
             "isLoc": true,
-            "x": 109,
-            "y": 75,
+            "x": 499,
+            "y": 309,
             "z": 2,
             "children": [],
             "parent": "Food"
@@ -67,8 +67,8 @@
         "Gom Gom": {
             "id": "Gom Gom",
             "isLoc": true,
-            "x": 80,
-            "y": 85,
+            "x": 386,
+            "y": 347,
             "z": 1,
             "children": [],
             "parent": "Food"
@@ -76,8 +76,8 @@
         "My Nonnas": {
             "id": "My Nonnas",
             "isLoc": true,
-            "x": 56,
-            "y": 82,
+            "x": 297,
+            "y": 338,
             "z": 1,
             "children": [],
             "parent": "Food"
