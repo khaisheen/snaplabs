@@ -121,9 +121,10 @@
         }
     ],
     "ticker": [
-        "Dont give up only give in",
-        "Betttwer worl by desngn",
-        "You are the best version of you",
-        "Tom > Chong"
+        "Cool beans",
+        "Better world by design",
+        "BYE BYE CAPSTONE :D",
+        "Snap Labs loves you",
+	"Thank you Prof Bige, Prof Naga, Prof Malika and TA Pujani for all the support and mentorship throughout the past two terms <3"
     ]
 }
