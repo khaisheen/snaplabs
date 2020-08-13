@@ -1,10 +1,13 @@
-import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from requests_toolbelt.multipart import decoder
 from configfileIO import updateEvents, readConfigs, updateTicker
+from pathlib import Path
 
 host = ''
 PORT = 99
+
+contentpath = Path(__file__).parent.parent / "Content/Files"
+
+configsfile = contentpath / "configs.txt"
 
 class HandleRequests(BaseHTTPRequestHandler):
     def _set_headers(self):
@@ -62,7 +65,7 @@ class HandleRequests(BaseHTTPRequestHandler):
         elif widgetType == 'banner':
             print("updating banner...")
             data = bytes(eval(body_dict['data']))
-            with open("banner.png", "wb") as f:
+            with open(contentpath / "banner.png", "wb") as f:
                 f.write(data)
             print("done updating banner!")   
             
@@ -74,15 +77,15 @@ class HandleRequests(BaseHTTPRequestHandler):
             pass
             
             
-    def update_video(self, body, ctype):
-        print("updating video...")
-        parts = decoder.MultipartDecoder(body, ctype).parts
-        print(parts)
-        for part in parts:
-            print(part.headers)  
-            print(part.encoding)
-            print(part.text)
-        print("done updating video!")
-            
+#    def update_video(self, body, ctype):
+#        print("updating video...")
+#        parts = decoder.MultipartDecoder(body, ctype).parts
+#        print(parts)
+#        for part in parts:
+#            print(part.headers)  
+#            print(part.encoding)
+#            print(part.text)
+#        print("done updating video!")
+#            
 
 HTTPServer((host,PORT),HandleRequests).serve_forever()

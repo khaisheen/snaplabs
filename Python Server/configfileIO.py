@@ -1,20 +1,20 @@
 import json, os
-
+from pathlib import Path
 
 # Allows python to read true (json bool) to True (python bool)
 true = True
 false = False
 
-#directory = r"C:\Users\Khai Sheen\Desktop\Capstone\gestures-repo\Content\Files\"
+contentpath = Path(__file__).parent.parent / "Content/Files"
 
-filepath = "configs.txt"
+configsfile = contentpath / "configs.txt"
 
 def updateEvents(body_dict):
 #    newEventsDict = json.loads(body_dict)
     print("updating...")
     
     # Parse current config file
-    with open(filepath, "r") as f:
+    with open(configsfile, "r") as f:
     #    for i, line in enumerate(f.readlines()):
     #        print(i, line)
         data = json.load(f)
@@ -23,7 +23,7 @@ def updateEvents(body_dict):
 #    print(events)
     for event in events:
 #        print(type(event['bytes']))
-        filename = event['filename']
+        filename = contentpath / event['filename']
 #        fileBytes = bytes(event['bytes'], 'utf-8')
         fileBytes = event['bytes']
 #        print(fileBytes, len(fileBytes))
@@ -43,20 +43,20 @@ def updateEvents(body_dict):
         
     data['events'] = events
     
-    with open(filepath, "w") as f:
+    with open(configsfile, "w") as f:
         json.dump(data, f, indent=4)
         
     print("done updating events!")
 
 def readConfigs():
     print("READING...")
-    with open(filepath, "r") as f:
+    with open(configsfile, "r") as f:
         data = json.load(f)
     
     events = data['events']
     ticker = data['ticker']
     for event in events:
-        tempfile = event['filename']
+        tempfile = contentpath / event['filename']
         event['bytes'] = ''
         if os.path.exists(tempfile):
             with open(tempfile, 'rb') as f:
@@ -79,26 +79,17 @@ def readConfigs():
 
 def updateTicker(body_dict):
     print("Updating Ticker...")
-    with open(filepath, "r") as f:
+    with open(configsfile, "r") as f:
         data = json.load(f)
     
     ticker = eval(body_dict['data'])
     data['ticker'] = ticker
     
-    with open(filepath, "w") as f:
+    with open(configsfile, "w") as f:
         json.dump(data, f, indent=4)
     
     print("done updating ticker!")    
         
-def getTicker():
-    print("Reading ticker...")
-    with open(filepath, "r") as f:
-        data = json.load(f)
-    
-    ticker = json.dumps(data['ticker'])
-    
-    print("dont reading ticker!")
-    return ticker
 
 
 #readEvents()
