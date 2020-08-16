@@ -27,9 +27,9 @@ class HandleRequests(BaseHTTPRequestHandler):
         
     def do_GET(self):
         self._set_headers()
-        events = readConfigs()
+        data = readConfigs()
 #        print(events)
-        self.wfile.write(events.encode('utf-8'))
+        self.wfile.write(data.encode('utf-8'))
         
     def do_POST(self):
         '''Reads post request body'''
