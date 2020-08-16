@@ -3,7 +3,7 @@ from configfileIO import updateEvents, readConfigs, updateTicker
 from pathlib import Path
 
 host = ''
-PORT = 99
+PORT = 21000
 
 contentpath = Path(__file__).parent.parent / "Content/Files"
 
