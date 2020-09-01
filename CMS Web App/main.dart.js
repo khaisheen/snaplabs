@@ -11079,11 +11079,11 @@ this.c=null},
 a3A:function(a,b,c){var s
 if(c!=="event"&&c!=="banner"&&c!=="ticker"){P.eK('Type must be "event" or "banner" or "ticker".')
 return null}s=t.X
-G.ahO("http://localhost:21000",C.aR.pp(P.aA(["data",J.cc(a),"filename",b,"type",c],s,s),null)).by(new D.a12(),t.P)},
+G.ahO("http://10.12.228.43:21000",C.aR.pp(P.aA(["data",J.cc(a),"filename",b,"type",c],s,s),null)).by(new D.a12(),t.P)},
 IM:function(){var s=0,r=P.a2(t.dt),q,p
 var $async$IM=P.X(function(a,b){if(a===1)return P.a_(b,r)
 while(true)switch(s){case 0:s=3
-return P.ad(G.ahh("http://localhost:21000"),$async$IM)
+return P.ad(G.ahh("http://10.12.228.43:21000"),$async$IM)
 case 3:p=b
 q=C.aR.EF(0,B.a8r(U.a7w(p.e).c.a.h(0,"charset")).dX(0,p.x),null)
 s=1
