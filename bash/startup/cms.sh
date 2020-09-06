@@ -1,7 +1,9 @@
+#!/bin/sh
+
 echo starting up CMS...
 
-# do smth
+cd "../../CMS Web App"
 
-sleep 1
+python -m http.server 21001
 
-echo CMS done
+echo DONE! CMS running on port 21001

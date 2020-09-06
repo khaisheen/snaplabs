@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # cd to the rest of the startup scripts
 cd startup/

@@ -1,5 +1,9 @@
+#!/bin/sh
+
 echo starting up Python backend...
 
-# do smth
+cd "../../Python Server"
 
-echo Python backend done
+python main.py
+
+echo DONE! Python backend up and running
