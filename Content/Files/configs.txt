@@ -3,9 +3,6 @@
         "Main": {
             "id": "Main",
             "isLoc": false,
-            "x": 0,
-            "y": 0,
-            "z": 0,
             "children": [
                 "LTs",
                 "Food"

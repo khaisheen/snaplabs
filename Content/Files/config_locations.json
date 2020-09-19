@@ -1,0 +1,202 @@
+{
+  "locationBtns": {
+    "Main": {
+      "id": "Main",
+      "isLoc": false,
+      "children": [
+        "Food",
+        "Think Tanks",
+        "Lecture Theatres",
+        "Cohort Classrooms",
+        "Labs",
+        "Offices",
+        "Others"
+      ],
+      "parent": ""
+    },
+    "Food": {
+      "id": "Food",
+      "isLoc": false,
+      "children": [
+        "Canteen",
+        "My Nonnas",
+        "Gom Gom",
+        "D'Star Bistro",
+        "Crooked Cooks",
+        "Ugly Food"
+      ],
+      "parent": "Main"
+    },
+    "Think Tanks": {
+      "id": "Think Tanks",
+      "isLoc": false,
+      "children": [
+        "TT1",
+        "TT2",
+        "TT3",
+        "TT4",
+        "TT5",
+        "TT6",
+        "TT7",
+        "TT8",
+        "TT9",
+        "TT10",
+        "TT11",
+        "TT12",
+        "TT13",
+        "TT14",
+        "TT15",
+        "TT16",
+        "TT17",
+        "TT18",
+        "TT19",
+        "TT20",
+        "TT21",
+        "TT22",
+        "TT23",
+        "TT24"
+      ],
+      "parent": "Main"
+    },
+    "Lecture Theatres": {
+      "id": "Lecture Theatres",
+      "isLoc": false,
+      "children": [
+        "LT1",
+        "LT2",
+        "LT3",
+        "LT4"
+      ],
+      "parent": "Main"
+    },
+    "Cohort Classrooms": {
+      "id": "Cohort Classrooms",
+      "isLoc": false,
+      "children": [
+        "CC1",
+        "CC2",
+        "CC3",
+        "CC4",
+        "CC5",
+        "CC6",
+        "CC7",
+        "CC8",
+        "CC9",
+        "CC10",
+        "CC11",
+        "CC12",
+        "CC13",
+        "CC14",
+        "CC15",
+        "CC16"
+      ],
+      "parent": "Main"
+    },
+    "Labs": {
+      "id": "Labs",
+      "isLoc": false,
+      "children": [
+        "Fabrication Lab",
+        "LEET Lab",
+        "Game Lab",
+        "IDia Lab",
+        "BEATs Lab",
+        "Furnace Lab",
+        "Physics Lab",
+        "Cognition Lab",
+        "Computer Lab",
+        "TL/iTrust Lab 1",
+        "TL/iTrust Lab 2",
+        "TL/iTrust Lab 3",
+        "TL/iTrust Lab 4",
+        "TL/iTrust Lab 5",
+        "TL/iTrust Lab 6",
+        "TL/iTrust Lab 7",
+        "TL/iTrust Lab 8",
+        "TL/iTrust Lab 9",
+        "ESD Research Lab",
+        "Data Analytics Lab",
+        "Photo and Video Lab",
+        "Digital Systems Lab",
+        "Characterisation Lab"
+      ],
+      "parent": "Main"
+    },
+    "Offices": {
+      "id": "Offices",
+      "isLoc": false,
+      "children": [
+        "Office of Information Technology",
+        "Office of Campus Infrastructure and Facilities",
+        "Office of Student Life",
+        "Office of Admissions",
+        "Office of International Relations",
+        "Office of Internal Audit",
+        "Office of Graduate Studies",
+        "Office of Strategic Planning",
+        "Office of Marketing",
+        "Office of HR and Admin",
+        "Office of Education, Investment, Advancement and Development",
+        "DManD Office",
+        "Corp Lab Office",
+        "SUTD-SMU Collaboration Office",
+        "SUTD-ZJU Collaboration Office"
+      ],
+      "parent": "Main"
+    },
+    "Others": {
+      "id": "Others",
+      "isLoc": false,
+      "children": [
+        "Campus Centre",
+        "One-Stop Centre",
+        "Library"
+      ],
+      "parent": "Main"
+    },
+
+    "Canteen": {
+      "id": "Canteen",
+      "isLoc": true,
+      "x": 0,
+      "y": 0,
+      "parent": "node"
+    },
+    "My Nonnas": {
+      "id": "My Nonnas",
+      "isLoc": true,
+      "x": 267,
+      "y": 317,
+      "parent": "node_1_1"
+    },
+    "Gom Gom": {
+      "id": "Gom Gom",
+      "isLoc": true,
+      "x": 354,
+      "y": 329,
+      "parent": "node_1_2"
+    },
+    "D'Star Bistro": {
+      "id": "D'Star Bistro",
+      "isLoc": true,
+      "x": 384,
+      "y": 383,
+      "parent": "node_1_3"
+    },
+    "Crooked Cooks": {
+      "id": "Crooked Cooks",
+      "isLoc": true,
+      "x": 230,
+      "y": 286,
+      "parent": "root"
+    },
+    "Ugly Food": {
+      "id": "Ugly Food",
+      "isLoc": true,
+      "x": 354,
+      "y": 329,
+      "parent": "node_1_2"
+    }
+
+  }
+}
