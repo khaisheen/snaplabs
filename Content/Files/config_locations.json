@@ -296,6 +296,134 @@
       "y": 268,
       "z": 3,
       "parent": "LL_3"
+    },
+    "Cohort Classroom 1": {
+      "id": "CC1",
+      "isLoc": true,
+      "x": 217,
+      "y": 400,
+      "z": 3,
+      "parent": "node_3_12"
+    },
+    "Cohort Classroom 2": {
+      "id": "CC2",
+      "isLoc": true,
+      "x": 253,
+      "y": 392,
+      "z": 3,
+      "parent": "node_3_13"
+    },
+    "Cohort Classroom 3": {
+      "id": "CC3",
+      "isLoc": true,
+      "x": 217,
+      "y": 400,
+      "z": 3,
+      "parent": "node_4_12"
+    },
+    "Cohort Classroom 4": {
+      "id": "CC4",
+      "isLoc": true,
+      "x": 253,
+      "y": 392,
+      "z": 3,
+      "parent": "node_4_13"
+    },
+    "Cohort Classroom 5": {
+      "id": "CC5",
+      "isLoc": true,
+      "x": 217,
+      "y": 400,
+      "z": 3,
+      "parent": "node_5_12"
+    },
+    "Cohort Classroom 6": {
+      "id": "CC6",
+      "isLoc": true,
+      "x": 253,
+      "y": 392,
+      "z": 3,
+      "parent": "node_5_13"
+    },
+    "Cohort Classroom 7": {
+      "id": "CC7",
+      "isLoc": true,
+      "x": 217,
+      "y": 400,
+      "z": 3,
+      "parent": "node_6_12"
+    },
+    "Cohort Classroom 8": {
+      "id": "CC8",
+      "isLoc": true,
+      "x": 253,
+      "y": 392,
+      "z": 3,
+      "parent": "node_6_13"
+    },
+    "Cohort Classroom 9": {
+      "id": "CC9",
+      "isLoc": true,
+      "x": 262,
+      "y": 318,
+      "z": 3,
+      "parent": "node_3_6"
+    },
+    "Cohort Classroom 10": {
+      "id": "CC10",
+      "isLoc": true,
+      "x": 219,
+      "y": 320,
+      "z": 3,
+      "parent": "node_3_5"
+    },
+    "Cohort Classroom 11": {
+      "id": "CC11",
+      "isLoc": true,
+      "x": 262,
+      "y": 318,
+      "z": 3,
+      "parent": "node_4_6"
+    },
+    "Cohort Classroom 12": {
+      "id": "CC12",
+      "isLoc": true,
+      "x": 219,
+      "y": 320,
+      "z": 3,
+      "parent": "node_4_5"
+    },
+    "Cohort Classroom 13": {
+      "id": "CC13",
+      "isLoc": true,
+      "x": 262,
+      "y": 318,
+      "z": 3,
+      "parent": "node_5_6"
+    },
+    "Cohort Classroom 14": {
+      "id": "CC14",
+      "isLoc": true,
+      "x": 219,
+      "y": 320,
+      "z": 3,
+      "parent": "node_5_5"
+    },
+    "Cohort Classroom 15": {
+      "id": "CC15",
+      "isLoc": true,
+      "x": 262,
+      "y": 318,
+      "z": 3,
+      "parent": "node_6_6"
+    },
+    "Cohort Classroom 16": {
+      "id": "CC16",
+      "isLoc": true,
+      "x": 219,
+      "y": 320,
+      "z": 3,
+      "parent": "node_6_5"
     }
 
   }
