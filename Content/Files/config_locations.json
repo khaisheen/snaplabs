@@ -122,14 +122,12 @@
         "Office of Student Life",
         "Office of Admissions",
         "Office of International Relations",
-        "Office of Internal Audit",
         "Office of Graduate Studies",
         "Office of Strategic Planning",
         "Office of Marketing",
         "Office of HR and Admin",
-        "Office of Education, Investment, Advancement and Development",
+        "Office of Education",
         "DManD Office",
-        "Corp Lab Office",
         "SUTD-SMU Collaboration Office",
         "SUTD-ZJU Collaboration Office"
       ],
@@ -151,6 +149,7 @@
       "isLoc": true,
       "x": 446,
       "y": 292,
+      "z": 2,
       "parent": "node_2_7"
     },
     "My Nonnas": {
@@ -158,6 +157,7 @@
       "isLoc": true,
       "x": 267,
       "y": 317,
+      "z": 1,
       "parent": "node_1_1"
     },
     "Gom Gom": {
@@ -165,6 +165,7 @@
       "isLoc": true,
       "x": 354,
       "y": 329,
+      "z": 1,
       "parent": "node_1_2"
     },
     "D'Star Bistro": {
@@ -172,6 +173,7 @@
       "isLoc": true,
       "x": 384,
       "y": 383,
+      "z": 1,
       "parent": "node_1_3"
     },
     "Crooked Cooks": {
@@ -179,6 +181,7 @@
       "isLoc": true,
       "x": 230,
       "y": 286,
+      "z": 1,
       "parent": "root"
     },
     "Ugly Food": {
@@ -186,7 +189,113 @@
       "isLoc": true,
       "x": 354,
       "y": 329,
+      "z": 1,
       "parent": "node_1_2"
+    },
+
+    "Information Technology": {
+      "id": "Information Technology",
+      "isLoc": true,
+      "x": 266,
+      "y": 302,
+      "z": 2,
+      "parent": "node_2_5"
+    },
+    "Campus Infrastructure and Facilities": {
+      "id": "Campus Infrastructure and Facilities",
+      "isLoc": true,
+      "x": 457,
+      "y": 285,
+      "z": 5,
+      "parent": "node_5_8"
+    },
+    "Student Life": {
+      "id": "Student Life",
+      "isLoc": true,
+      "x": 597,
+      "y": 314,
+      "z": 1,
+      "parent": "node_1_7"
+    },
+    "Admissions": {
+      "id": "Admissions",
+      "isLoc": true,
+      "x": 589,
+      "y": 319,
+      "z": 2,
+      "parent": "LL_3"
+    },
+    "International Relations": {
+      "id": "International Relations",
+      "isLoc": true,
+      "x": 555,
+      "y": 268,
+      "z": 3,
+      "parent": "LL_3"
+    },
+    "Graduate Studies": {
+      "id": "Graduate Studies",
+      "isLoc": true,
+      "x": 574,
+      "y": 318,
+      "z": 5,
+      "parent": "LL_3"
+    },
+    "Strategic Planning": {
+      "id": "Strategic Planning",
+      "isLoc": true,
+      "x": 574,
+      "y": 318,
+      "z": 6,
+      "parent": "LL_3"
+    },
+    "Marketing": {
+      "id": "Marketing",
+      "isLoc": true,
+      "x": 574,
+      "y": 318,
+      "z": 6,
+      "parent": "LL_3"
+    },
+    "HR and Admin": {
+      "id": "HR and Admin",
+      "isLoc": true,
+      "x": 574,
+      "y": 318,
+      "z": 6,
+      "parent": "LL_3"
+    },
+    "Education": {
+      "id": "Education",
+      "isLoc": true,
+      "x": 572,
+      "y": 244,
+      "z": 7,
+      "parent": "LL_3"
+    },
+    "DManD": {
+      "id": "DManD",
+      "isLoc": true,
+      "x": 217,
+      "y": 415,
+      "z": 7,
+      "parent": "node_7_12"
+    },
+    "SUTD-SMU": {
+      "id": "SUTD-SMU",
+      "isLoc": true,
+      "x": 362,
+      "y": 393,
+      "z": 6,
+      "parent": "LL_1"
+    },
+    "SUTD-ZJU": {
+      "id": "SUTD-ZJU",
+      "isLoc": true,
+      "x": 555,
+      "y": 268,
+      "z": 3,
+      "parent": "LL_3"
     }
 
   }
