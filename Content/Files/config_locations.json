@@ -149,9 +149,9 @@
     "Canteen": {
       "id": "Canteen",
       "isLoc": true,
-      "x": 0,
-      "y": 0,
-      "parent": "node"
+      "x": 446,
+      "y": 292,
+      "parent": "node_2_7"
     },
     "My Nonnas": {
       "id": "My Nonnas",
