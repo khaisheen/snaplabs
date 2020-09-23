@@ -318,7 +318,7 @@
       "isLoc": true,
       "x": 217,
       "y": 400,
-      "z": 3,
+      "z": 4,
       "parent": "node_4_12"
     },
     "Cohort Classroom 4": {
@@ -326,7 +326,7 @@
       "isLoc": true,
       "x": 253,
       "y": 392,
-      "z": 3,
+      "z": 4,
       "parent": "node_4_13"
     },
     "Cohort Classroom 5": {
@@ -334,7 +334,7 @@
       "isLoc": true,
       "x": 217,
       "y": 400,
-      "z": 3,
+      "z": 5,
       "parent": "node_5_12"
     },
     "Cohort Classroom 6": {
@@ -342,7 +342,7 @@
       "isLoc": true,
       "x": 253,
       "y": 392,
-      "z": 3,
+      "z": 5,
       "parent": "node_5_13"
     },
     "Cohort Classroom 7": {
@@ -350,7 +350,7 @@
       "isLoc": true,
       "x": 217,
       "y": 400,
-      "z": 3,
+      "z": 6,
       "parent": "node_6_12"
     },
     "Cohort Classroom 8": {
@@ -358,7 +358,7 @@
       "isLoc": true,
       "x": 253,
       "y": 392,
-      "z": 3,
+      "z": 6,
       "parent": "node_6_13"
     },
     "Cohort Classroom 9": {
@@ -382,7 +382,7 @@
       "isLoc": true,
       "x": 262,
       "y": 318,
-      "z": 3,
+      "z": 4,
       "parent": "node_4_6"
     },
     "Cohort Classroom 12": {
@@ -390,7 +390,7 @@
       "isLoc": true,
       "x": 219,
       "y": 320,
-      "z": 3,
+      "z": 4,
       "parent": "node_4_5"
     },
     "Cohort Classroom 13": {
@@ -398,7 +398,7 @@
       "isLoc": true,
       "x": 262,
       "y": 318,
-      "z": 3,
+      "z": 5,
       "parent": "node_5_6"
     },
     "Cohort Classroom 14": {
@@ -406,7 +406,7 @@
       "isLoc": true,
       "x": 219,
       "y": 320,
-      "z": 3,
+      "z": 5,
       "parent": "node_5_5"
     },
     "Cohort Classroom 15": {
@@ -414,7 +414,7 @@
       "isLoc": true,
       "x": 262,
       "y": 318,
-      "z": 3,
+      "z": 6,
       "parent": "node_6_6"
     },
     "Cohort Classroom 16": {
@@ -422,7 +422,7 @@
       "isLoc": true,
       "x": 219,
       "y": 320,
-      "z": 3,
+      "z": 6,
       "parent": "node_6_5"
     }
 
