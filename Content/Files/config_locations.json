@@ -5,9 +5,9 @@
       "isLoc": false,
       "children": [
         "Food",
-        "Think Tanks",
-        "Lecture Theatres",
-        "Cohort Classrooms",
+        "Think Tanks (TT)",
+        "Lecture Theatres (LT)",
+        "Cohort Classrooms (CC)",
         "Labs",
         "Offices",
         "Others"
@@ -27,8 +27,8 @@
       ],
       "parent": "Main"
     },
-    "Think Tanks": {
-      "id": "Think Tanks",
+    "Think Tanks (TT)": {
+      "id": "Think Tanks (TT)",
       "isLoc": false,
       "children": [
         "TT1",
@@ -58,8 +58,8 @@
       ],
       "parent": "Main"
     },
-    "Lecture Theatres": {
-      "id": "Lecture Theatres",
+    "Lecture Theatres (LT)": {
+      "id": "Lecture Theatres (LT)",
       "isLoc": false,
       "children": [
         "LT1",
@@ -69,26 +69,26 @@
       ],
       "parent": "Main"
     },
-    "Cohort Classrooms": {
-      "id": "Cohort Classrooms",
+    "Cohort Classrooms (CC)": {
+      "id": "Cohort Classrooms (CC)",
       "isLoc": false,
       "children": [
-        "CC1",
-        "CC2",
-        "CC3",
-        "CC4",
-        "CC5",
-        "CC6",
-        "CC7",
-        "CC8",
-        "CC9",
-        "CC10",
-        "CC11",
-        "CC12",
-        "CC13",
-        "CC14",
-        "CC15",
-        "CC16"
+        "CC 1",
+        "CC 2",
+        "CC 3",
+        "CC 4",
+        "CC 5",
+        "CC 6",
+        "CC 7",
+        "CC 8",
+        "CC 9",
+        "CC 10",
+        "CC 11",
+        "CC 12",
+        "CC 13",
+        "CC 14",
+        "CC 15",
+        "CC 16"
       ],
       "parent": "Main"
     },
@@ -201,8 +201,8 @@
       "z": 2,
       "parent": "node_2_5"
     },
-    "Campus Infrastructure and Facilities": {
-      "id": "Campus Infrastructure and Facilities",
+    "Campus Infrastructure": {
+      "id": "Campus Infrastructure",
       "isLoc": true,
       "x": 457,
       "y": 285,
@@ -297,128 +297,128 @@
       "z": 3,
       "parent": "LL_3"
     },
-    "Cohort Classroom 1": {
-      "id": "CC1",
+    "CC 1": {
+      "id": "CC 1",
       "isLoc": true,
       "x": 217,
       "y": 400,
       "z": 3,
       "parent": "node_3_12"
     },
-    "Cohort Classroom 2": {
-      "id": "CC2",
+    "CC 2": {
+      "id": "CC 2",
       "isLoc": true,
       "x": 253,
       "y": 392,
       "z": 3,
       "parent": "node_3_13"
     },
-    "Cohort Classroom 3": {
-      "id": "CC3",
+    "CC 3": {
+      "id": "CC 3",
       "isLoc": true,
       "x": 217,
       "y": 400,
       "z": 4,
       "parent": "node_4_12"
     },
-    "Cohort Classroom 4": {
-      "id": "CC4",
+    "CC 4": {
+      "id": "CC 4",
       "isLoc": true,
       "x": 253,
       "y": 392,
       "z": 4,
       "parent": "node_4_13"
     },
-    "Cohort Classroom 5": {
-      "id": "CC5",
+    "CC 5": {
+      "id": "CC 5",
       "isLoc": true,
       "x": 217,
       "y": 400,
       "z": 5,
       "parent": "node_5_12"
     },
-    "Cohort Classroom 6": {
-      "id": "CC6",
+    "CC 6": {
+      "id": "CC 6",
       "isLoc": true,
       "x": 253,
       "y": 392,
       "z": 5,
       "parent": "node_5_13"
     },
-    "Cohort Classroom 7": {
-      "id": "CC7",
+    "CC 7": {
+      "id": "CC 7",
       "isLoc": true,
       "x": 217,
       "y": 400,
       "z": 6,
       "parent": "node_6_12"
     },
-    "Cohort Classroom 8": {
-      "id": "CC8",
+    "CC 8": {
+      "id": "CC 8",
       "isLoc": true,
       "x": 253,
       "y": 392,
       "z": 6,
       "parent": "node_6_13"
     },
-    "Cohort Classroom 9": {
-      "id": "CC9",
+    "CC 9": {
+      "id": "CC 9",
       "isLoc": true,
       "x": 262,
       "y": 318,
       "z": 3,
       "parent": "node_3_6"
     },
-    "Cohort Classroom 10": {
-      "id": "CC10",
+    "CC 10": {
+      "id": "CC 10",
       "isLoc": true,
       "x": 219,
       "y": 320,
       "z": 3,
       "parent": "node_3_5"
     },
-    "Cohort Classroom 11": {
-      "id": "CC11",
+    "CC 11": {
+      "id": "CC 11",
       "isLoc": true,
       "x": 262,
       "y": 318,
       "z": 4,
       "parent": "node_4_6"
     },
-    "Cohort Classroom 12": {
-      "id": "CC12",
+    "CC 12": {
+      "id": "CC 12",
       "isLoc": true,
       "x": 219,
       "y": 320,
       "z": 4,
       "parent": "node_4_5"
     },
-    "Cohort Classroom 13": {
-      "id": "CC13",
+    "CC 13": {
+      "id": "CC 13",
       "isLoc": true,
       "x": 262,
       "y": 318,
       "z": 5,
       "parent": "node_5_6"
     },
-    "Cohort Classroom 14": {
-      "id": "CC14",
+    "CC 14": {
+      "id": "CC 14",
       "isLoc": true,
       "x": 219,
       "y": 320,
       "z": 5,
       "parent": "node_5_5"
     },
-    "Cohort Classroom 15": {
-      "id": "CC15",
+    "CC 15": {
+      "id": "CC 15",
       "isLoc": true,
       "x": 262,
       "y": 318,
       "z": 6,
       "parent": "node_6_6"
     },
-    "Cohort Classroom 16": {
-      "id": "CC16",
+    "CC 16": {
+      "id": "CC 16",
       "isLoc": true,
       "x": 219,
       "y": 320,
