@@ -31,30 +31,32 @@
       "id": "Think Tanks (TT)",
       "isLoc": false,
       "children": [
-        "TT1",
-        "TT2",
-        "TT3",
-        "TT4",
-        "TT5",
-        "TT6",
-        "TT7",
-        "TT8",
-        "TT9",
-        "TT10",
-        "TT11",
-        "TT12",
-        "TT13",
-        "TT14",
-        "TT15",
-        "TT16",
-        "TT17",
-        "TT18",
-        "TT19",
-        "TT20",
-        "TT21",
-        "TT22",
-        "TT23",
-        "TT24"
+        "TT 1",
+        "TT 2",
+        "TT 3",
+        "TT 4",
+        "TT 5",
+        "TT 6",
+        "TT 7",
+        "TT 8",
+        "TT 9",
+        "TT 10",
+        "TT 11",
+        "TT 12",
+        "TT 13",
+        "TT 14",
+        "TT 15",
+        "TT 16",
+        "TT 17",
+        "TT 18",
+        "TT 19",
+        "TT 20",
+        "TT 21",
+        "TT 22",
+        "TT 23",
+        "TT 24",
+        "TT 25",
+        "TT 26"
       ],
       "parent": "Main"
     },
@@ -62,10 +64,10 @@
       "id": "Lecture Theatres (LT)",
       "isLoc": false,
       "children": [
-        "LT1",
-        "LT2",
-        "LT3",
-        "LT4"
+        "LT 1",
+        "LT 2",
+        "LT 3",
+        "LT 4"
       ],
       "parent": "Main"
     },
@@ -117,8 +119,13 @@
       "id": "Offices",
       "isLoc": false,
       "children": [
+        "EPD",
+        "HASS",
+        "ISTD",
+        "ASD",
+        "ESD",
         "Information Technology",
-        "Campus Infrastructure and Facilities",
+        "Campus Infrastructure",
         "Student Life",
         "Admissions",
         "International Relations",
@@ -191,6 +198,47 @@
       "y": 329,
       "z": 1,
       "parent": "node_1_2"
+    },
+
+    "EPD": {
+      "id": "EPD",
+      "isLoc": true,
+      "x": 400,
+      "y": 475,
+      "z": 3,
+      "parent": "node_3_15"
+    },
+    "HASS": {
+      "id": "HASS",
+      "isLoc": true,
+      "x": 400,
+      "y": 475,
+      "z": 4,
+      "parent": "node_4_15"
+    },
+    "ISTD": {
+      "id": "ISTD",
+      "isLoc": true,
+      "x": 400,
+      "y": 475,
+      "z": 5,
+      "parent": "node_5_15"
+    },
+    "ASD": {
+      "id": "ASD",
+      "isLoc": true,
+      "x": 400,
+      "y": 475,
+      "z": 6,
+      "parent": "node_6_15"
+    },
+    "ESD": {
+      "id": "ESD",
+      "isLoc": true,
+      "x": 400,
+      "y": 475,
+      "z": 7,
+      "parent": "node_7_15"
     },
 
     "Information Technology": {
@@ -424,7 +472,217 @@
       "y": 320,
       "z": 6,
       "parent": "node_6_5"
+    },
+
+    "TT 1": {
+      "id": "TT 1",
+      "isLoc": true,
+      "x": 295,
+      "y": 460,
+      "z": 3,
+      "parent": "node_3_15"
+    },
+    "TT 2": {
+      "id": "TT 2",
+      "isLoc": true,
+      "x": 275,
+      "y": 457,
+      "z": 3,
+      "parent": "node_3_15"
+    },
+    "TT 3": {
+      "id": "TT 3",
+      "isLoc": true,
+      "x": 255,
+      "y": 455,
+      "z": 3,
+      "parent": "node_3_15"
+    },
+    "TT 4": {
+      "id": "TT 4",
+      "isLoc": true,
+      "x": 240,
+      "y": 445,
+      "z": 3,
+      "parent": "node_3_12"
+    },
+    "TT 5": {
+      "id": "TT 5",
+      "isLoc": true,
+      "x": 235,
+      "y": 430,
+      "z": 3,
+      "parent": "node_3_12"
+    },
+    "TT 6": {
+      "id": "TT 6",
+      "isLoc": true,
+      "x": 295,
+      "y": 460,
+      "z": 4,
+      "parent": "node_4_15"
+    },
+    "TT 7": {
+      "id": "TT 7",
+      "isLoc": true,
+      "x": 275,
+      "y": 457,
+      "z": 4,
+      "parent": "node_4_15"
+    },
+    "TT 8": {
+      "id": "TT 8",
+      "isLoc": true,
+      "x": 255,
+      "y": 455,
+      "z": 4,
+      "parent": "node_4_15"
+    },
+    "TT 9": {
+      "id": "TT 9",
+      "isLoc": true,
+      "x": 315,
+      "y": 445,
+      "z": 4,
+      "parent": "node_4_13"
+    },
+    "TT 10": {
+      "id": "TT 10",
+      "isLoc": true,
+      "x": 315,
+      "y": 419,
+      "z": 4,
+      "parent": "node_4_13"
+    },
+    "TT 11": {
+      "id": "TT 11",
+      "isLoc": true,
+      "x": 315,
+      "y": 445,
+      "z": 5,
+      "parent": "node_5_13"
+    },
+    "TT 12": {
+      "id": "TT 12",
+      "isLoc": true,
+      "x": 315,
+      "y": 419,
+      "z": 5,
+      "parent": "node_5_13"
+    },
+    "TT 13": {
+      "id": "TT 13",
+      "isLoc": true,
+      "x": 295,
+      "y": 460,
+      "z": 5,
+      "parent": "node_5_15"
+    },
+    "TT 14": {
+      "id": "TT 14",
+      "isLoc": true,
+      "x": 275,
+      "y": 457,
+      "z": 5,
+      "parent": "node_5_15"
+    },
+    "TT 15": {
+      "id": "TT 15",
+      "isLoc": true,
+      "x": 255,
+      "y": 455,
+      "z": 5,
+      "parent": "node_5_15"
+    },
+    "TT 16": {
+      "id": "TT 16",
+      "isLoc": true,
+      "x": 400,
+      "y": 300,
+      "z": 2,
+      "parent": "node_2_5"
+    },
+    "TT 17": {
+      "id": "TT 17",
+      "isLoc": true,
+      "x": 380,
+      "y": 300,
+      "z": 2,
+      "parent": "node_2_5"
+    },
+    "TT 18": {
+      "id": "TT 18",
+      "isLoc": true,
+      "x": 360,
+      "y": 300,
+      "z": 2,
+      "parent": "node_2_5"
+    },
+    "TT 19": {
+      "id": "TT 19",
+      "isLoc": true,
+      "x": 393,
+      "y": 317,
+      "z": 3,
+      "parent": "node_3_9"
+    },
+    "TT 20": {
+      "id": "TT 20",
+      "isLoc": true,
+      "x": 368,
+      "y": 317,
+      "z": 3,
+      "parent": "node_6_5"
+    },
+    "TT 21": {
+      "id": "TT 21",
+      "isLoc": true,
+      "x": 235,
+      "y": 292,
+      "z": 3,
+      "parent": "node_3_5"
+    },
+    "TT 22": {
+      "id": "TT 1",
+      "isLoc": true,
+      "x": 238,
+      "y": 276,
+      "z": 3,
+      "parent": "node_3_5"
+    },
+    "TT 23": {
+      "id": "TT 23",
+      "isLoc": true,
+      "x": 314,
+      "y": 272,
+      "z": 4,
+      "parent": "node_4_6"
+    },
+    "TT 24": {
+      "id": "TT 24",
+      "isLoc": true,
+      "x": 393,
+      "y": 317,
+      "z": 5,
+      "parent": "node_5_9"
+    },
+    "TT 25": {
+      "id": "TT 25",
+      "isLoc": true,
+      "x": 368,
+      "y": 317,
+      "z": 5,
+      "parent": "node_5_9"
+    },
+    "TT 26": {
+      "id": "TT 26",
+      "isLoc": true,
+      "x": 314,
+      "y": 272,
+      "z": 5,
+      "parent": "node_5_6"
     }
+
 
   }
 }
