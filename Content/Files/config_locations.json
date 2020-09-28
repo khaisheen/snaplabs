@@ -67,7 +67,8 @@
         "LT 1",
         "LT 2",
         "LT 3",
-        "LT 4"
+        "LT 4",
+        "LT 5"
       ],
       "parent": "Main"
     },
@@ -681,6 +682,78 @@
       "y": 272,
       "z": 5,
       "parent": "node_5_6"
+    },
+
+    "LT 1": {
+      "id": "LT 1",
+      "isLoc": true,
+      "x": 321,
+      "y": 426,
+      "z": 1,
+      "parent": "node_1_3"
+    },
+
+    "LT 2": {
+      "id": "LT 2",
+      "isLoc": true,
+      "x": 330,
+      "y": 460,
+      "z": 1,
+      "parent": "node_2_12"
+    },
+
+    "LT 3": {
+      "id": "LT 3",
+      "isLoc": true,
+      "x": 370,
+      "y": 302,
+      "z": 4,
+      "parent": "node_4_7"
+    },
+
+    "LT 4": {
+      "id": "LT 4",
+      "isLoc": true,
+      "x": 323,
+      "y": 298,
+      "z": 4,
+      "parent": "LL_2_1"
+    },
+
+    "LT 5": {
+      "id": "LT 5",
+      "isLoc": true,
+      "x": 323,
+      "y": 298,
+      "z": 5,
+      "parent": "LL_2_1"
+    },
+
+    "Campus Centre": {
+      "id": "Campus Centre",
+      "isLoc": true,
+      "x": 512,
+      "y": 328,
+      "z": 1,
+      "parent": "node_1_5"
+    },
+
+    "One-Stop Centre": {
+      "id": "One-Stop Centre",
+      "isLoc": true,
+      "x": 562,
+      "y": 314,
+      "z": 1,
+      "parent": "node_1_7"
+    },
+
+    "Library": {
+      "id": "Library",
+      "isLoc": true,
+      "x": 464,
+      "y": 395,
+      "z": 1,
+      "parent": "node_1_5"
     }
 
 
