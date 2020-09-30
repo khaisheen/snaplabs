@@ -99,20 +99,7 @@
       "id": "Labs",
       "isLoc": false,
       "children": [
-        "Fabrication Lab",
-        "LEET Lab",
-        "Game Lab",
-        "IDia Lab",
-        "BEATs Lab",
-        "Furnace Lab",
-        "Physics Lab",
-        "Cognition Lab",
-        "Computer Lab",
-        "ESD Research Lab",
-        "Data Analytics Lab",
-        "Photo and Video Lab",
-        "Digital Systems Lab",
-        "Characterisation Lab"
+        "Fabrication Lab"
       ],
       "parent": "Main"
     },
@@ -357,8 +344,8 @@
     "CC 2": {
       "id": "CC 2",
       "isLoc": true,
-      "x": 253,
-      "y": 392,
+      "x": 272,
+      "y": 405,
       "z": 3,
       "parent": "node_3_13"
     },
@@ -373,8 +360,8 @@
     "CC 4": {
       "id": "CC 4",
       "isLoc": true,
-      "x": 253,
-      "y": 392,
+      "x": 272,
+      "y": 405,
       "z": 4,
       "parent": "node_4_13"
     },
@@ -389,8 +376,8 @@
     "CC 6": {
       "id": "CC 6",
       "isLoc": true,
-      "x": 253,
-      "y": 392,
+      "x": 272,
+      "y": 405,
       "z": 5,
       "parent": "node_5_13"
     },
@@ -405,16 +392,16 @@
     "CC 8": {
       "id": "CC 8",
       "isLoc": true,
-      "x": 253,
-      "y": 392,
+      "x": 272,
+      "y": 405,
       "z": 6,
       "parent": "node_6_13"
     },
     "CC 9": {
       "id": "CC 9",
       "isLoc": true,
-      "x": 262,
-      "y": 318,
+      "x": 264,
+      "y": 304,
       "z": 3,
       "parent": "node_3_6"
     },
@@ -429,8 +416,8 @@
     "CC 11": {
       "id": "CC 11",
       "isLoc": true,
-      "x": 262,
-      "y": 318,
+      "x": 264,
+      "y": 304,
       "z": 4,
       "parent": "node_4_6"
     },
@@ -445,8 +432,8 @@
     "CC 13": {
       "id": "CC 13",
       "isLoc": true,
-      "x": 262,
-      "y": 318,
+      "x": 264,
+      "y": 304,
       "z": 5,
       "parent": "node_5_6"
     },
@@ -461,8 +448,8 @@
     "CC 15": {
       "id": "CC 15",
       "isLoc": true,
-      "x": 262,
-      "y": 318,
+      "x": 264,
+      "y": 304,
       "z": 6,
       "parent": "node_6_6"
     },
@@ -698,7 +685,7 @@
       "isLoc": true,
       "x": 330,
       "y": 460,
-      "z": 1,
+      "z": 2,
       "parent": "node_2_12"
     },
 
@@ -754,6 +741,15 @@
       "y": 395,
       "z": 1,
       "parent": "node_1_5"
+    },
+
+    "Fabrication Lab": {
+      "id": "Fabrication Lab",
+      "isLoc": true,
+      "x": 379,
+      "y": 170,
+      "z": 1,
+      "parent": "node_1_10"
     }
 
 
