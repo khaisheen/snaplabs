@@ -92,4 +92,5 @@ class HandleRequests(BaseHTTPRequestHandler):
 #        print("done updating video!")
 #
 
+print("Running Python Server...")
 HTTPServer((host, PORT), HandleRequests).serve_forever()
