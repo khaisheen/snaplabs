@@ -124,5 +124,5 @@
         "Snap Labs loves you",
         "Thank you Prof Bige, Prof Naga, Prof Malika and TA Pujani for all the support and mentorship throughout the past two terms <3"
     ],
-    "video": "https://drive.google.com/file/d/1340S_x-cxEytJVup_5hvICHYveZetZhs/view?usp=sharing"
+    "video": "https://drive.google.com/uc?id=1LtJQR13cuJnktxlsVnd3f_qB_72h9nMW"
 }
