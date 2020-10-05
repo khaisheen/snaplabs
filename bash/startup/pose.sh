@@ -2,6 +2,7 @@
 
 echo starting up pose estimator...
 
-# do smth
+python3 ../../pose_est/demo13.py --model human-pose-estimation-3d.pth --video 0
 
-echo pose estimator startup script is still empty!
+echo DONE! Pose estimator up and running.
+
