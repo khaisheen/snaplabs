@@ -10816,11 +10816,11 @@ this.c=null},Z2:function Z2(a){this.a=a},
 a2z:function(a,b,c){var s
 if(c!=="event"&&c!=="banner"&&c!=="ticker"&&c!=="video"){P.dG('Type must be "event" or "banner" or "ticker" or "video".')
 return null}s=t.X
-G.ajQ("http://10.12.228.43:21000",C.ax.mi(P.ax(["data",J.cf(a),"filename",b,"type",c],s,s),null)).bs(new D.a2A(),t.P)},
+G.ajQ("http://10.15.94.170:21000",C.ax.mi(P.ax(["data",J.cf(a),"filename",b,"type",c],s,s),null)).bs(new D.a2A(),t.P)},
 xz:function(){var s=0,r=P.a0(t.dt),q,p
 var $async$xz=P.X(function(a,b){if(a===1)return P.Y(b,r)
 while(true)switch(s){case 0:s=3
-return P.a9(G.ajj("http://10.12.228.43:21000"),$async$xz)
+return P.a9(G.ajj("http://10.15.94.170:21000"),$async$xz)
 case 3:p=b
 q=C.ax.EZ(0,B.aa6(U.a9b(p.e).c.a.h(0,"charset")).e_(0,p.x),null)
 s=1
