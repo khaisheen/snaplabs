@@ -4,5 +4,6 @@ echo starting up UE4 project...
 
 cd ../../
 
+snaplabsMap
 
-echo UE4 project startup script is still empty!
+echo DONE! Unreal Engine 4 project up and running.
