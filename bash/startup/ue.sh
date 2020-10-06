@@ -2,6 +2,7 @@
 
 echo starting up UE4 project...
 
-# do smth
+cd ../../
+
 
 echo UE4 project startup script is still empty!
