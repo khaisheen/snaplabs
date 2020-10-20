@@ -147,7 +147,8 @@
       "x": 446,
       "y": 292,
       "z": 2,
-      "parent": "node_2_7"
+      "parent": "node_2_7",
+      "bld": 2
     },
     "My Nonnas": {
       "id": "My Nonnas",
@@ -155,7 +156,8 @@
       "x": 267,
       "y": 317,
       "z": 1,
-      "parent": "node_1_1"
+      "parent": "node_1_1",
+      "bld": 2
     },
     "Gom Gom": {
       "id": "Gom Gom",
@@ -163,7 +165,8 @@
       "x": 354,
       "y": 329,
       "z": 1,
-      "parent": "node_1_2"
+      "parent": "node_1_2",
+      "bld": 2
     },
     "D'Star Bistro": {
       "id": "D'Star Bistro",
@@ -171,7 +174,8 @@
       "x": 384,
       "y": 383,
       "z": 1,
-      "parent": "node_1_3"
+      "parent": "node_1_3",
+      "bld": 1
     },
     "Crooked Cooks": {
       "id": "Crooked Cooks",
@@ -179,7 +183,8 @@
       "x": 230,
       "y": 286,
       "z": 1,
-      "parent": "root"
+      "parent": "root",
+      "bld": 2
     },
     "Ugly Food": {
       "id": "Ugly Food",
@@ -187,7 +192,8 @@
       "x": 354,
       "y": 329,
       "z": 1,
-      "parent": "node_1_2"
+      "parent": "node_1_2",
+      "bld": 2
     },
 
     "EPD": {
@@ -196,7 +202,8 @@
       "x": 400,
       "y": 475,
       "z": 3,
-      "parent": "node_3_15"
+      "parent": "node_3_15",
+      "bld": 1
     },
     "HASS": {
       "id": "HASS",
@@ -204,7 +211,8 @@
       "x": 400,
       "y": 475,
       "z": 4,
-      "parent": "node_4_15"
+      "parent": "node_4_15",
+      "bld": 1
     },
     "ISTD": {
       "id": "ISTD",
@@ -212,7 +220,8 @@
       "x": 400,
       "y": 475,
       "z": 5,
-      "parent": "node_5_15"
+      "parent": "node_5_15",
+      "bld": 1
     },
     "ASD": {
       "id": "ASD",
@@ -220,7 +229,8 @@
       "x": 400,
       "y": 475,
       "z": 6,
-      "parent": "node_6_15"
+      "parent": "node_6_15",
+      "bld": 1
     },
     "ESD": {
       "id": "ESD",
@@ -228,7 +238,8 @@
       "x": 400,
       "y": 475,
       "z": 7,
-      "parent": "node_7_15"
+      "parent": "node_7_15",
+      "bld": 1
     },
 
     "Information Technology": {
@@ -237,7 +248,8 @@
       "x": 266,
       "y": 302,
       "z": 2,
-      "parent": "node_2_5"
+      "parent": "node_2_5",
+      "bld": 2
     },
     "Campus Infrastructure": {
       "id": "Campus Infrastructure",
@@ -245,7 +257,8 @@
       "x": 457,
       "y": 285,
       "z": 5,
-      "parent": "node_5_8"
+      "parent": "node_5_8",
+      "bld": 2
     },
     "Student Life": {
       "id": "Student Life",
@@ -253,7 +266,8 @@
       "x": 597,
       "y": 314,
       "z": 1,
-      "parent": "node_1_7"
+      "parent": "node_1_7",
+      "bld": 3
     },
     "Admissions": {
       "id": "Admissions",
@@ -261,7 +275,8 @@
       "x": 589,
       "y": 319,
       "z": 2,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "International Relations": {
       "id": "International Relations",
@@ -269,7 +284,8 @@
       "x": 555,
       "y": 268,
       "z": 3,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "Graduate Studies": {
       "id": "Graduate Studies",
@@ -277,7 +293,8 @@
       "x": 574,
       "y": 318,
       "z": 5,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "Strategic Planning": {
       "id": "Strategic Planning",
@@ -285,7 +302,8 @@
       "x": 574,
       "y": 318,
       "z": 6,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "Marketing": {
       "id": "Marketing",
@@ -293,7 +311,8 @@
       "x": 574,
       "y": 318,
       "z": 6,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "HR and Admin": {
       "id": "HR and Admin",
@@ -301,7 +320,8 @@
       "x": 574,
       "y": 318,
       "z": 6,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "Education": {
       "id": "Education",
@@ -309,7 +329,8 @@
       "x": 572,
       "y": 244,
       "z": 7,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "DManD": {
       "id": "DManD",
@@ -317,7 +338,8 @@
       "x": 217,
       "y": 415,
       "z": 7,
-      "parent": "node_7_12"
+      "parent": "node_7_12",
+      "bld": 1
     },
     "SUTD-SMU": {
       "id": "SUTD-SMU",
@@ -325,7 +347,8 @@
       "x": 362,
       "y": 393,
       "z": 6,
-      "parent": "LL_1"
+      "parent": "LL_1",
+      "bld": 1
     },
     "SUTD-ZJU": {
       "id": "SUTD-ZJU",
@@ -333,7 +356,8 @@
       "x": 555,
       "y": 268,
       "z": 3,
-      "parent": "LL_3"
+      "parent": "LL_3",
+      "bld": 3
     },
     "CC 1": {
       "id": "CC 1",
@@ -341,7 +365,8 @@
       "x": 217,
       "y": 400,
       "z": 3,
-      "parent": "node_3_12"
+      "parent": "node_3_12",
+      "bld": 1
     },
     "CC 2": {
       "id": "CC 2",
@@ -349,7 +374,8 @@
       "x": 272,
       "y": 405,
       "z": 3,
-      "parent": "node_3_13"
+      "parent": "node_3_13",
+      "bld": 1
     },
     "CC 3": {
       "id": "CC 3",
@@ -357,7 +383,8 @@
       "x": 217,
       "y": 400,
       "z": 4,
-      "parent": "node_4_12"
+      "parent": "node_4_12",
+      "bld": 1
     },
     "CC 4": {
       "id": "CC 4",
@@ -365,7 +392,8 @@
       "x": 272,
       "y": 405,
       "z": 4,
-      "parent": "node_4_13"
+      "parent": "node_4_13",
+      "bld": 1
     },
     "CC 5": {
       "id": "CC 5",
@@ -373,7 +401,8 @@
       "x": 217,
       "y": 400,
       "z": 5,
-      "parent": "node_5_12"
+      "parent": "node_5_12",
+      "bld": 1
     },
     "CC 6": {
       "id": "CC 6",
@@ -381,7 +410,8 @@
       "x": 272,
       "y": 405,
       "z": 5,
-      "parent": "node_5_13"
+      "parent": "node_5_13",
+      "bld": 1
     },
     "CC 7": {
       "id": "CC 7",
@@ -389,7 +419,8 @@
       "x": 217,
       "y": 400,
       "z": 6,
-      "parent": "node_6_12"
+      "parent": "node_6_12",
+      "bld": 1
     },
     "CC 8": {
       "id": "CC 8",
@@ -397,7 +428,8 @@
       "x": 272,
       "y": 405,
       "z": 6,
-      "parent": "node_6_13"
+      "parent": "node_6_13",
+      "bld": 1
     },
     "CC 9": {
       "id": "CC 9",
@@ -405,7 +437,8 @@
       "x": 264,
       "y": 304,
       "z": 3,
-      "parent": "node_3_6"
+      "parent": "node_3_6",
+      "bld": 2
     },
     "CC 10": {
       "id": "CC 10",
@@ -413,7 +446,8 @@
       "x": 219,
       "y": 320,
       "z": 3,
-      "parent": "node_3_5"
+      "parent": "node_3_5",
+      "bld": 2
     },
     "CC 11": {
       "id": "CC 11",
@@ -421,7 +455,8 @@
       "x": 264,
       "y": 304,
       "z": 4,
-      "parent": "node_4_6"
+      "parent": "node_4_6",
+      "bld": 2
     },
     "CC 12": {
       "id": "CC 12",
@@ -429,7 +464,8 @@
       "x": 219,
       "y": 320,
       "z": 4,
-      "parent": "node_4_5"
+      "parent": "node_4_5",
+      "bld": 2
     },
     "CC 13": {
       "id": "CC 13",
@@ -437,7 +473,8 @@
       "x": 264,
       "y": 304,
       "z": 5,
-      "parent": "node_5_6"
+      "parent": "node_5_6",
+      "bld": 2
     },
     "CC 14": {
       "id": "CC 14",
@@ -445,7 +482,8 @@
       "x": 219,
       "y": 320,
       "z": 5,
-      "parent": "node_5_5"
+      "parent": "node_5_5",
+      "bld": 2
     },
     "CC 15": {
       "id": "CC 15",
@@ -453,7 +491,8 @@
       "x": 264,
       "y": 304,
       "z": 6,
-      "parent": "node_6_6"
+      "parent": "node_6_6",
+      "bld": 2
     },
     "CC 16": {
       "id": "CC 16",
@@ -461,7 +500,8 @@
       "x": 219,
       "y": 320,
       "z": 6,
-      "parent": "node_6_5"
+      "parent": "node_6_5",
+      "bld": 2
     },
 
     "TT 1": {
@@ -470,7 +510,8 @@
       "x": 295,
       "y": 460,
       "z": 3,
-      "parent": "node_3_15"
+      "parent": "node_3_15",
+      "bld": 1
     },
     "TT 2": {
       "id": "TT 2",
@@ -478,7 +519,8 @@
       "x": 275,
       "y": 457,
       "z": 3,
-      "parent": "node_3_15"
+      "parent": "node_3_15",
+      "bld": 1
     },
     "TT 3": {
       "id": "TT 3",
@@ -486,7 +528,8 @@
       "x": 255,
       "y": 455,
       "z": 3,
-      "parent": "node_3_15"
+      "parent": "node_3_15",
+      "bld": 1
     },
     "TT 4": {
       "id": "TT 4",
@@ -494,7 +537,8 @@
       "x": 240,
       "y": 445,
       "z": 3,
-      "parent": "node_3_12"
+      "parent": "node_3_12",
+      "bld": 1
     },
     "TT 5": {
       "id": "TT 5",
@@ -502,7 +546,8 @@
       "x": 235,
       "y": 430,
       "z": 3,
-      "parent": "node_3_12"
+      "parent": "node_3_12",
+      "bld": 1
     },
     "TT 6": {
       "id": "TT 6",
@@ -510,7 +555,8 @@
       "x": 295,
       "y": 460,
       "z": 4,
-      "parent": "node_4_15"
+      "parent": "node_4_15",
+      "bld": 1
     },
     "TT 7": {
       "id": "TT 7",
@@ -518,7 +564,8 @@
       "x": 275,
       "y": 457,
       "z": 4,
-      "parent": "node_4_15"
+      "parent": "node_4_15",
+      "bld": 1
     },
     "TT 8": {
       "id": "TT 8",
@@ -526,7 +573,8 @@
       "x": 255,
       "y": 455,
       "z": 4,
-      "parent": "node_4_15"
+      "parent": "node_4_15",
+      "bld": 1
     },
     "TT 9": {
       "id": "TT 9",
@@ -534,7 +582,8 @@
       "x": 315,
       "y": 445,
       "z": 4,
-      "parent": "node_4_13"
+      "parent": "node_4_13",
+      "bld": 1
     },
     "TT 10": {
       "id": "TT 10",
@@ -542,7 +591,8 @@
       "x": 315,
       "y": 419,
       "z": 4,
-      "parent": "node_4_13"
+      "parent": "node_4_13",
+      "bld": 1
     },
     "TT 11": {
       "id": "TT 11",
@@ -550,7 +600,8 @@
       "x": 315,
       "y": 445,
       "z": 5,
-      "parent": "node_5_13"
+      "parent": "node_5_13",
+      "bld": 1
     },
     "TT 12": {
       "id": "TT 12",
@@ -558,7 +609,8 @@
       "x": 315,
       "y": 419,
       "z": 5,
-      "parent": "node_5_13"
+      "parent": "node_5_13",
+      "bld": 1
     },
     "TT 13": {
       "id": "TT 13",
@@ -566,7 +618,8 @@
       "x": 295,
       "y": 460,
       "z": 5,
-      "parent": "node_5_15"
+      "parent": "node_5_15",
+      "bld": 1
     },
     "TT 14": {
       "id": "TT 14",
@@ -574,7 +627,8 @@
       "x": 275,
       "y": 457,
       "z": 5,
-      "parent": "node_5_15"
+      "parent": "node_5_15",
+      "bld": 1
     },
     "TT 15": {
       "id": "TT 15",
@@ -582,7 +636,8 @@
       "x": 255,
       "y": 455,
       "z": 5,
-      "parent": "node_5_15"
+      "parent": "node_5_15",
+      "bld": 1
     },
     "TT 16": {
       "id": "TT 16",
@@ -590,7 +645,8 @@
       "x": 400,
       "y": 300,
       "z": 2,
-      "parent": "node_2_5"
+      "parent": "node_2_5",
+      "bld": 2
     },
     "TT 17": {
       "id": "TT 17",
@@ -598,7 +654,8 @@
       "x": 380,
       "y": 300,
       "z": 2,
-      "parent": "node_2_5"
+      "parent": "node_2_5",
+      "bld": 2
     },
     "TT 18": {
       "id": "TT 18",
@@ -606,7 +663,8 @@
       "x": 360,
       "y": 300,
       "z": 2,
-      "parent": "node_2_5"
+      "parent": "node_2_5",
+      "bld": 2
     },
     "TT 19": {
       "id": "TT 19",
@@ -614,7 +672,8 @@
       "x": 393,
       "y": 317,
       "z": 3,
-      "parent": "node_3_9"
+      "parent": "node_3_9",
+      "bld": 2
     },
     "TT 20": {
       "id": "TT 20",
@@ -622,7 +681,8 @@
       "x": 368,
       "y": 317,
       "z": 3,
-      "parent": "node_3_9"
+      "parent": "node_3_9",
+      "bld": 2
     },
     "TT 21": {
       "id": "TT 21",
@@ -630,7 +690,8 @@
       "x": 235,
       "y": 292,
       "z": 3,
-      "parent": "node_3_5"
+      "parent": "node_3_5",
+      "bld": 2
     },
     "TT 22": {
       "id": "TT 22",
@@ -638,7 +699,8 @@
       "x": 238,
       "y": 276,
       "z": 3,
-      "parent": "node_3_5"
+      "parent": "node_3_5",
+      "bld": 2
     },
     "TT 23": {
       "id": "TT 23",
@@ -646,7 +708,8 @@
       "x": 314,
       "y": 272,
       "z": 4,
-      "parent": "node_4_6"
+      "parent": "node_4_6",
+      "bld": 2
     },
     "TT 24": {
       "id": "TT 24",
@@ -654,7 +717,8 @@
       "x": 393,
       "y": 317,
       "z": 5,
-      "parent": "node_5_9"
+      "parent": "node_5_9",
+      "bld": 2
     },
     "TT 25": {
       "id": "TT 25",
@@ -662,7 +726,8 @@
       "x": 368,
       "y": 317,
       "z": 5,
-      "parent": "node_5_9"
+      "parent": "node_5_9",
+      "bld": 2
     },
     "TT 26": {
       "id": "TT 26",
@@ -670,7 +735,8 @@
       "x": 314,
       "y": 272,
       "z": 5,
-      "parent": "node_5_6"
+      "parent": "node_5_6",
+      "bld": 2
     },
 
     "LT 1": {
@@ -679,7 +745,8 @@
       "x": 321,
       "y": 426,
       "z": 1,
-      "parent": "node_1_3"
+      "parent": "node_1_3",
+      "bld": 1
     },
 
     "LT 2": {
@@ -688,7 +755,8 @@
       "x": 330,
       "y": 460,
       "z": 2,
-      "parent": "node_2_12"
+      "parent": "node_2_12",
+      "bld": 1
     },
 
     "LT 3": {
@@ -697,7 +765,8 @@
       "x": 370,
       "y": 302,
       "z": 4,
-      "parent": "node_4_7"
+      "parent": "node_4_7",
+      "bld": 2
     },
 
     "LT 4": {
@@ -706,7 +775,8 @@
       "x": 323,
       "y": 298,
       "z": 4,
-      "parent": "LL_2_1"
+      "parent": "LL_2_1",
+      "bld": 2
     },
 
     "LT 5": {
@@ -715,7 +785,8 @@
       "x": 323,
       "y": 298,
       "z": 5,
-      "parent": "LL_2_1"
+      "parent": "LL_2_1",
+      "bld": 2
     },
 
     "Campus Centre": {
@@ -724,7 +795,8 @@
       "x": 512,
       "y": 328,
       "z": 1,
-      "parent": "node_1_5"
+      "parent": "node_1_5",
+      "bld": 3
     },
 
     "One-Stop Centre": {
@@ -733,7 +805,8 @@
       "x": 562,
       "y": 314,
       "z": 1,
-      "parent": "node_1_7"
+      "parent": "node_1_7",
+      "bld": 3
     },
 
     "Library": {
@@ -742,7 +815,8 @@
       "x": 464,
       "y": 395,
       "z": 1,
-      "parent": "node_1_5"
+      "parent": "node_1_5",
+      "bld": 1
     },
 
     "Fabrication Lab": {
@@ -751,7 +825,8 @@
       "x": 379,
       "y": 170,
       "z": 1,
-      "parent": "node_1_10"
+      "parent": "node_1_10",
+      "bld": 5
     }
 
 
