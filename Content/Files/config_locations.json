@@ -4,13 +4,15 @@
       "id": "Main",
       "isLoc": false,
       "children": [
+        "Campus Centre",
+        "One-Stop Centre",
+        "Library",
         "Food",
         "Think Tanks (TT)",
         "Lecture Theatres (LT)",
         "Cohort Classrooms (CC)",
         "Labs",
-        "Offices",
-        "Others"
+        "Offices"
       ],
       "parent": ""
     },
