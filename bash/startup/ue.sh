@@ -2,7 +2,7 @@
 
 echo starting up UE4 project...
 
-cd ../../
+cd ../../../
 
 snaplabsMap
 

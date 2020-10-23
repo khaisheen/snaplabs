@@ -15,6 +15,5 @@ pose.bat &
 # start Unreal Engine program
 sh ue.sh &
 
-wait
 
 echo ALL STARTUP DONE
