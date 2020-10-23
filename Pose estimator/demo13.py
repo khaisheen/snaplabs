@@ -25,17 +25,19 @@ def clipped(_x, _y):
     y = max(0, min(target_height, _y))
     return (x,y)
 
-def calcHandPos(x, y, w, h):
-    pass
-    # b_width = frame.shape[1]
-    # b_height = frame.shape[0]
-    # x_offset = int(b_width * x_scale / 2 - b_width / 2)
-    # y_offset = int(b_height * y_scale / 2 - b_height / 2)
-    # hand_pos = (b_width - wrist_pos[0], wrist_pos[1])
-    # cursorX = int((hand_pos[0] * x_scale - x_offset)/b_width * target_width)
-    # cursorY = int((hand_pos[1] * y_scale - y_offset)/b_height * target_height) + y_adjust_2
-    # hand_pos = clipped(cursorX, cursorY)
-    # cur_pos = hand_pos if cur_pos == None else (hand_pos[0] * ema_w + cur_pos[0] * (1-ema_w), hand_pos[1] * ema_w + cur_pos[1] * (1-ema_w))
+def calcHandPos(x, y, w, h, prev_pos):
+    x_scale = 3
+    y_scale = 3
+    y_adjust_2 = 200
+    ema_w = 0.3
+    x_offset = int(w * x_scale / 2 - h / 2)
+    y_offset = int(h * y_scale / 2 - h / 2)
+    hand_pos = (w - x, y)
+    cursorX = int((hand_pos[0] * x_scale - x_offset)/w * target_width)
+    cursorY = int((hand_pos[1] * y_scale - y_offset)/h * target_height) + y_adjust_2
+    hand_pos = clipped(cursorX, cursorY)
+    cur_pos = hand_pos if prev_pos == None else (hand_pos[0] * ema_w + cur_pos[0] * (1-ema_w), hand_pos[1] * ema_w + cur_pos[1] * (1-ema_w))
+    return cur_pos
 
 def runNormal(fx, delay ,esc_code):
     x_adjust = 3
@@ -71,17 +73,18 @@ def runNormal(fx, delay ,esc_code):
         #     mean_time = mean_time * 0.95 + current_time * 0.05
         #print('FPS: {}'.format(int(1 / mean_time * 10) / 10))
         if wrist_pos is not None:
-            x_scale = x_adjust
-            y_scale = y_adjust
+            # x_scale = x_adjust
+            # y_scale = y_adjust
             b_width = frame.shape[1]
             b_height = frame.shape[0]
-            x_offset = int(b_width * x_scale / 2 - b_width / 2)
-            y_offset = int(b_height * y_scale / 2 - b_height / 2)
-            hand_pos = (b_width - wrist_pos[0], wrist_pos[1])
-            cursorX = int((hand_pos[0] * x_scale - x_offset)/b_width * target_width)
-            cursorY = int((hand_pos[1] * y_scale - y_offset)/b_height * target_height) + y_adjust_2
-            hand_pos = clipped(cursorX, cursorY)
-            cur_pos = hand_pos if cur_pos == None else (int(hand_pos[0] * ema_w + cur_pos[0] * (1-ema_w)), int(hand_pos[1] * ema_w + cur_pos[1] * (1-ema_w)))
+            # x_offset = int(b_width * x_scale / 2 - b_width / 2)
+            # y_offset = int(b_height * y_scale / 2 - b_height / 2)
+            # hand_pos = (b_width - wrist_pos[0], wrist_pos[1])
+            # cursorX = int((hand_pos[0] * x_scale - x_offset)/b_width * target_width)
+            # cursorY = int((hand_pos[1] * y_scale - y_offset)/b_height * target_height) + y_adjust_2
+            # hand_pos = clipped(cursorX, cursorY)
+            # cur_pos = hand_pos if cur_pos == None else (int(hand_pos[0] * ema_w + cur_pos[0] * (1-ema_w)), int(hand_pos[1] * ema_w + cur_pos[1] * (1-ema_w)))
+            cur_pos = calcHandPos(wrist_pos[0], wrist_pos[1], b_width, b_height, cur_pos)
             
             win32api.SetCursorPos(cur_pos)
             #m.move(hand_pos[0], hand_pos[1])
