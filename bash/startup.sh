@@ -10,7 +10,7 @@ sh cms.sh &
 sh py_backend.sh &
 
 # start pose estimator
-pose.bat &
+./pose.bat &
 
 # start Unreal Engine program
 sh ue.sh &
