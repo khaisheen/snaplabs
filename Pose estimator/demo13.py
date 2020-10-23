@@ -36,7 +36,7 @@ def calcHandPos(x, y, w, h, prev_pos):
     cursorX = int((hand_pos[0] * x_scale - x_offset)/w * target_width)
     cursorY = int((hand_pos[1] * y_scale - y_offset)/h * target_height) + y_adjust_2
     hand_pos = clipped(cursorX, cursorY)
-    cur_pos = hand_pos if prev_pos == None else (hand_pos[0] * ema_w + cur_pos[0] * (1-ema_w), hand_pos[1] * ema_w + cur_pos[1] * (1-ema_w))
+    cur_pos = hand_pos if prev_pos == None else (int(hand_pos[0] * ema_w + prev_pos[0] * (1-ema_w)), int(hand_pos[1] * ema_w + prev_pos[1] * (1-ema_w)))
     return cur_pos
 
 def runNormal(fx, delay ,esc_code):
