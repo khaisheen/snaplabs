@@ -83,7 +83,7 @@
     "events": [
         {
             "title": "Star Wars Movie Screening",
-            "description": "6PM at Auditorium! Free of Charge! Lightsabers and stuff",
+            "description": "6PM at Auditorium! Free of Charge! Lightsabers and stuff!",
             "filename": "poster1.png",
             "location": "Auditorium",
             "hasPoster": true
@@ -122,7 +122,7 @@
         "Better world by design",
         "BYE BYE CAPSTONE :D",
         "Snap Labs loves you",
-        "Thank you Prof Bige, Prof Naga, Prof Malika and TA Pujani for all the support and mentorship throughout the past two terms <3"
+        "Thank you Prof Bige, Prof Naga, Prof Malika"
     ],
     "video": "https://drive.google.com/file/d/1LtJQR13cuJnktxlsVnd3f_qB_72h9nMW/view?usp=sharing"
 }
