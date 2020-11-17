@@ -114,11 +114,11 @@
         "ISTD",
         "ASD",
         "ESD",
-        "Information Technology",
-        "Campus Infrastructure",
+        "IT",
+        "OCIF",
         "Student Life",
         "Admissions",
-        "International Relations",
+        "Int. Relations",
         "Graduate Studies",
         "Strategic Planning",
         "Marketing",
@@ -242,8 +242,8 @@
       "bld": 1
     },
 
-    "Information Technology": {
-      "id": "Information Technology",
+    "IT": {
+      "id": "IT",
       "isLoc": true,
       "x": 266,
       "y": 302,
@@ -251,8 +251,8 @@
       "parent": "node_2_5",
       "bld": 2
     },
-    "Campus Infrastructure": {
-      "id": "Campus Infrastructure",
+    "OCIF": {
+      "id": "OCIF",
       "isLoc": true,
       "x": 457,
       "y": 285,
@@ -278,8 +278,8 @@
       "parent": "LL_3",
       "bld": 3
     },
-    "International Relations": {
-      "id": "International Relations",
+    "Int. Relations": {
+      "id": "Int. Relations",
       "isLoc": true,
       "x": 555,
       "y": 268,
