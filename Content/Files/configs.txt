@@ -124,5 +124,7 @@
         "Snap Labs loves you",
         "Thank you Prof Bige, Prof Naga, Prof Malika"
     ],
-    "video": "https://drive.google.com/file/d/1LtJQR13cuJnktxlsVnd3f_qB_72h9nMW/view?usp=sharing"
+    "video": "https://drive.google.com/file/d/1LtJQR13cuJnktxlsVnd3f_qB_72h9nMW/view?usp=sharing",
+    "onTime": "0728",
+    "offTime": "2256"
 }

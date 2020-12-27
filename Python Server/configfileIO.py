@@ -59,6 +59,8 @@ def readConfigs():
     events = data['events']
     ticker = data['ticker']
     video = data['video']
+    onTime = data['onTime']
+    offTime = data['offTime']
     for event in events:
         tempfile = contentpath / event['filename']
         event['bytes'] = ''
@@ -73,6 +75,8 @@ def readConfigs():
     tempMap['events'] = events
     tempMap['ticker'] = ticker
     tempMap['video'] = video
+    tempMap['onTime'] = onTime
+    tempMap['offTime'] = offTime
 
 #    events = json.dumps(events)
 #    ticker = json.dumps(data['ticker'])
@@ -108,5 +112,19 @@ def updateVideo(body_dict):
         json.dump(data, f, indent=4)
 
     print("done updating video link!")
+    
+def updateTime(body_dict):
+    print("updating on/off time...")
+    with open(configsfile, "r") as f:
+        data = json.load(f)
 
+    times = eval(body_dict['data'])
+    data['onTime'] = times[0]
+    data['offTime'] = times[1]
+
+    with open(configsfile, "w") as f:
+        json.dump(data, f, indent=4)
+    
+    print("done updating on/off times!")
+    
 # readEvents()

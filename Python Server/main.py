@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from configfileIO import updateEvents, readConfigs, updateTicker, updateVideo
+from configfileIO import updateEvents, readConfigs, updateTicker, updateVideo, updateTime
 from pathlib import Path
 
 host = ''
@@ -79,6 +79,11 @@ class HandleRequests(BaseHTTPRequestHandler):
 # Update video
         elif widgetType == 'video':
             updateVideo(body_dict)
+            
+# Update time
+        elif widgetType == 'time':
+            updateTime(body_dict)
+# TODO: do something with onTime / offTime
 
 
 #    def update_video(self, body, ctype):
