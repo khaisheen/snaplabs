@@ -53,6 +53,12 @@ def updateEvents(body_dict):
 
 def readConfigs():
     print("READING...")
+    bannerpath = contentpath / "banner.png"
+    banner = ''
+    with open(bannerpath, "rb") as f:
+        tempBytes = f.read()
+        banner = list(tempBytes)
+        
     with open(configsfile, "r") as f:
         data = json.load(f)
 
@@ -77,6 +83,7 @@ def readConfigs():
     tempMap['video'] = video
     tempMap['onTime'] = onTime
     tempMap['offTime'] = offTime
+    tempMap['banner'] = banner
 
 #    events = json.dumps(events)
 #    ticker = json.dumps(data['ticker'])
