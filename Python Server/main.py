@@ -1,6 +1,26 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from configfileIO import updateEvents, readConfigs, updateTicker, updateVideo, updateTime
 from pathlib import Path
+import threading
+import time
+
+'''
+To install bluetooth lib:
+git clone https://github.com/pybluez/pybluez.git
+cd pybluez
+python setup.py install
+'''
+
+bt_ok = True
+try:
+    import bluetooth as bt
+    bt_sock = bt.BluetoothSocket(bt.RFCOMM)
+    bt_port = 5
+    mac_addr = '98:3B:8F:EB:F2:E3'
+    bt_sock.connect((mac_addr, bt_port))
+except:
+    print('No bluetooth module / bluetooth port on server side not open')
+    bt_ok = False
 
 host = ''
 PORT = 21000
@@ -97,5 +117,37 @@ class HandleRequests(BaseHTTPRequestHandler):
 #        print("done updating video!")
 #
 
-print("Running Python Server...")
-HTTPServer((host, PORT), HandleRequests).serve_forever()
+#HTTPServer((host, PORT), HandleRequests).serve_forever()
+
+def server_thread_func():
+    print("Running Python Server...")
+    HTTPServer((host, PORT), HandleRequests).serve_forever()
+
+def auto_on_off_thread_func():
+    if not bt_ok:
+        return
+    current_time = time.strftime("%H%M", time.localtime())
+    counter = 0
+    is_on = True
+    while counter < 2:
+        next_time = time.strftime("%H%M", time.localtime())
+        if current_time != next_time:
+            current_time = next_time
+            print(current_time)
+            bt_sock.send('off' if is_on else 'on')
+            is_on = not is_on 
+            counter += 1
+        time.sleep(5)
+    bt_sock.send('q')
+    bt_sock.close()
+
+
+server_thread = threading.Thread(target=server_thread_func, args=())
+server_thread.start()
+
+bt_thread = threading.Thread(target=auto_on_off_thread_func, args=())
+bt_thread.start()
+
+
+
+        
