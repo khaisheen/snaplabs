@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from configfileIO import updateEvents, readConfigs, updateTicker, updateVideo, updateTime
+from configfileIO import updateEvents, readConfigs, updateTicker, updateVideo, updateTime, getTime
 from pathlib import Path
 import threading
 import time
@@ -133,10 +133,17 @@ def auto_on_off_thread_func():
         next_time = time.strftime("%H%M", time.localtime())
         if current_time != next_time:
             current_time = next_time
-            print(current_time)
-            bt_sock.send('off' if is_on else 'on')
-            is_on = not is_on 
-            counter += 1
+            # print(current_time)
+            on_time, off_time = getTime()
+            if current_time == on_time and not is_on:
+                bt_sock.send('on')
+                is_on = True
+            elif current_time == off_time and is_on:
+                bt_sock.send('off')
+                is_on = False
+            #bt_sock.send('off' if is_on else 'on')
+            #is_on = not is_on 
+            # counter += 1
         time.sleep(5)
     bt_sock.send('q')
     bt_sock.close()

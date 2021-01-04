@@ -134,10 +134,10 @@ def updateTime(body_dict):
     
     print("done updating on/off times!")
 
-def getTime(onOff):
+def getTime():
     with open(configsfile, "r") as f:
         data = json.load(f)
-    return data[f'{onOff}Time']
+    return data['onTime'], data['ofTime']
 
     
 # readEvents()
