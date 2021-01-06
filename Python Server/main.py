@@ -78,13 +78,13 @@ class HandleRequests(BaseHTTPRequestHandler):
             self.wfile.write(b"DONE THANKS")
 
     def update_configs(self, body_dict):
-        widgetType = body_dict['type']
+        bodyType = body_dict['type']
 
 # Update events
-        if widgetType == 'event':
+        if bodyType == 'event':
             updateEvents(body_dict)
 # Update banner
-        elif widgetType == 'banner':
+        elif bodyType == 'banner':
             print("updating banner...")
             bannerpath = contentpath / "banner.png"
             print(bannerpath)
@@ -94,28 +94,21 @@ class HandleRequests(BaseHTTPRequestHandler):
             print("done updating banner!")
 
 # Update ticker
-        elif widgetType == 'ticker':
+        elif bodyType == 'ticker':
             updateTicker(body_dict)
 # Update video
-        elif widgetType == 'video':
+        elif bodyType == 'video':
             updateVideo(body_dict)
             
 # Update time
-        elif widgetType == 'time':
+        elif bodyType == 'time':
             updateTime(body_dict)
-# TODO: do something with onTime / offTime
+            
+# Manual on/off
+        elif bodyType == 'manual':
+            print(body_dict['data'])
+            # TODO for paul: this prints "on" and "off" strings upon button press          
 
-
-#    def update_video(self, body, ctype):
-#        print("updating video...")
-#        parts = decoder.MultipartDecoder(body, ctype).parts
-#        print(parts)
-#        for part in parts:
-#            print(part.headers)
-#            print(part.encoding)
-#            print(part.text)
-#        print("done updating video!")
-#
 
 #HTTPServer((host, PORT), HandleRequests).serve_forever()
 
