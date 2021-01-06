@@ -11,6 +11,7 @@ cd pybluez
 python setup.py install
 '''
 
+is_on = True
 bt_ok = True
 try:
     import bluetooth as bt
@@ -78,6 +79,7 @@ class HandleRequests(BaseHTTPRequestHandler):
             self.wfile.write(b"DONE THANKS")
 
     def update_configs(self, body_dict):
+        global is_on
         bodyType = body_dict['type']
 
 # Update events
@@ -106,8 +108,16 @@ class HandleRequests(BaseHTTPRequestHandler):
             
 # Manual on/off
         elif bodyType == 'manual':
-            print(body_dict['data'])
-            # TODO for paul: this prints "on" and "off" strings upon button press          
+            cmd = body_dict['data']
+            print(cmd)
+            if bt_ok and cmd == '"on"' and not is_on:
+                print('ON')
+                bt_sock.send('on')
+                is_on = True
+            elif bt_ok and cmd =='"off"' and is_on:
+                print('OFF')
+                bt_sock.send('off')
+                is_on = False   
 
 
 #HTTPServer((host, PORT), HandleRequests).serve_forever()
@@ -117,11 +127,12 @@ def server_thread_func():
     HTTPServer((host, PORT), HandleRequests).serve_forever()
 
 def auto_on_off_thread_func():
+    global is_on
+
     if not bt_ok:
         return
     current_time = time.strftime("%H%M", time.localtime())
     counter = 0
-    is_on = True
     while counter < 2:
         next_time = time.strftime("%H%M", time.localtime())
         if current_time != next_time:
