@@ -15,12 +15,18 @@ is_on = True
 bt_ok = True
 try:
     import bluetooth as bt
-    bt_sock = bt.BluetoothSocket(bt.RFCOMM)
-    bt_port = 5
-    mac_addr = '98:3B:8F:EB:F2:E3'
-    bt_sock.connect((mac_addr, bt_port))
 except:
-    print('No bluetooth module / bluetooth port on server side not open')
+    print('No bluetooth module')
+    bt_ok = False
+
+try:
+    if bt_ok:
+        bt_sock = bt.BluetoothSocket(bt.RFCOMM)
+        bt_port = 5
+        mac_addr = '98:3B:8F:EB:F2:E3'
+        bt_sock.connect((mac_addr, bt_port))
+except:
+    print('Bluetooth port on server side not open')
     bt_ok = False
 
 host = ''

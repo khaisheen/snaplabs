@@ -1,0 +1,1 @@
+start cmd /k "conda activate bluetooth_env && python main.py"
